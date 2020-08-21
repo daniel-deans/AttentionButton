@@ -1,4 +1,4 @@
-package com.example.attentionbuttontemp;
+package com.example.attentionbutton;
 
 import android.content.Context;
 
