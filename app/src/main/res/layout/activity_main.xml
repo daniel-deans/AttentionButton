@@ -10,34 +10,74 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="78dp"
             android:background="?attr/colorPrimary"
             android:minHeight="?attr/actionBarSize"
-            android:text="What do you need?"
-            android:theme="?attr/actionBarTheme" />
+            android:theme="?attr/actionBarTheme" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="What Do You Want?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:visibility="visible" />
+        </androidx.appcompat.widget.Toolbar>
 
         <Button
             android:id="@+id/button9"
             android:layout_width="match_parent"
             android:layout_height="180dp"
-            android:text="FOOD" />
+            android:background="@drawable/bread"
+            android:fontFamily="@font/bevan"
+            android:shadowColor="#000000"
+            android:shadowDx="3.0"
+            android:shadowDy="3.0"
+            android:shadowRadius="3.0"
+            android:text="FOOD"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#FFFFFF"
+            android:textSize="80sp"
+            android:typeface="normal" />
 
         <Button
             android:id="@+id/button11"
             android:layout_width="match_parent"
-            android:layout_height="183dp"
-            android:text="ATTENTION" />
+            android:layout_height="180dp"
+            android:background="@drawable/cud"
+            android:shadowColor="#000000"
+            android:shadowDx="3.0"
+            android:shadowDy="3.0"
+            android:shadowRadius="3.0"
+            android:text="ATTENTION"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#FFFFFF"
+            android:textSize="70sp"
+            android:typeface="normal" />
 
         <Button
             android:id="@+id/button12"
             android:layout_width="match_parent"
-            android:layout_height="181dp"
-            android:text="SEX" />
+            android:layout_height="180dp"
+            android:background="@drawable/winking"
+            android:shadowColor="#000000"
+            android:shadowDx="3.0"
+            android:shadowDy="3.0"
+            android:shadowRadius="3.0"
+            android:text="SEX"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#FFFFFF"
+            android:textSize="80sp"
+            android:typeface="normal" />
 
     </LinearLayout>
 
