@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -32,11 +33,14 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                 android:visibility="visible" />
         </androidx.appcompat.widget.Toolbar>
-
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
         <Button
-            android:id="@+id/button9"
-            android:layout_width="match_parent"
-            android:layout_height="180dp"
+            android:id="@+id/foodButton"
+            android:layout_width="380dp"
+            android:layout_height="140dp"
             android:background="@drawable/bread"
             android:fontFamily="@font/bevan"
             android:shadowColor="#000000"
@@ -48,11 +52,14 @@
             android:textColor="#FFFFFF"
             android:textSize="80sp"
             android:typeface="normal" />
-
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
         <Button
-            android:id="@+id/button11"
-            android:layout_width="match_parent"
-            android:layout_height="180dp"
+            android:id="@+id/attnButton"
+            android:layout_width="380dp"
+            android:layout_height="140dp"
             android:background="@drawable/cud"
             android:shadowColor="#000000"
             android:shadowDx="3.0"
@@ -63,11 +70,14 @@
             android:textColor="#FFFFFF"
             android:textSize="70sp"
             android:typeface="normal" />
-
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
         <Button
-            android:id="@+id/button12"
-            android:layout_width="match_parent"
-            android:layout_height="180dp"
+            android:id="@+id/sexButton"
+            android:layout_width="380dp"
+            android:layout_height="140dp"
             android:background="@drawable/winking"
             android:shadowColor="#000000"
             android:shadowDx="3.0"
@@ -79,6 +89,10 @@
             android:textSize="80sp"
             android:typeface="normal" />
 
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
